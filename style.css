@@ -1,0 +1,62 @@
+body {
+
+    font-family: Roboto;
+
+}
+:root {
+    --first-color: #2F303A;
+    --second-color: #FFFFFF;
+    --third-color: #188CE8;
+    --fourth-color: #212121;
+    --fifth-color: #757575;
+    --sixth-color:#F5F4FA;
+
+}
+
+.hero{
+    background-color:var(--first-color);
+}
+.hero-text{
+    color:var(--second-color);
+}
+.hero-btn{
+    background-color:var(--third-color);
+    color:var(--second-color);
+}
+.block1-title,.block2-title,.block3-title,.block4-title{
+    color:var(--fourth-color);
+}
+.block1-text,.block2-text,.block3-text,.block4-text{
+    color:var(--fifth-color);
+}
+
+
+.team-1{
+    padding-left: 215px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+}
+.team-2 {
+    padding-left: 515px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+.team-3 {
+    padding-left: 815px;
+    padding-bottom: auto;
+    box-sizing: border-box;
+}
+.team-4 {
+    padding-left: 1115px;
+    padding-bottom: auto;
+    box-sizing: border-box;
+}
+
+
+
+
+footer{
+    background-color: var(--first-color);
+}
