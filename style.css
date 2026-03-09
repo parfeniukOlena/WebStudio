@@ -3,56 +3,93 @@ body {
     font-family: Roboto;
 
 }
+
 :root {
     --first-color: #2F303A;
     --second-color: #FFFFFF;
     --third-color: #188CE8;
     --fourth-color: #212121;
     --fifth-color: #757575;
-    --sixth-color:#F5F4FA;
+    --sixth-color: #F5F4FA;
 
 }
 
-.hero{
-    background-color:var(--first-color);
+.hero {
+    background-color: var(--first-color);
 }
-.hero-text{
-    color:var(--second-color);
+
+.hero-text {
+    color: var(--second-color);
 }
-.hero-btn{
-    background-color:var(--third-color);
-    color:var(--second-color);
+
+.hero-btn {
+    background-color: var(--third-color);
+    color: var(--second-color);
 }
-.block1-title,.block2-title,.block3-title,.block4-title{
-    color:var(--fourth-color);
+
+.block1-title,
+.block2-title,
+.block3-title,
+.block4-title {
+    color: var(--fourth-color);
 }
-.block1-text,.block2-text,.block3-text,.block4-text{
-    color:var(--fifth-color);
+
+.block1-text,
+.block2-text,
+.block3-text,
+.block4-text {
+    color: var(--fifth-color);
 }
 
 
-.team-1{
+.team-1 {
 
     box-sizing: border-box;
-    margin: 0 auto;
+    margin-left: 215px;
+    margin-bottom: 1632px;
+    display: flex;
 }
+
 .team-2 {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin-left: 515px;
+    margin-bottom: 1632px;
+    display: flex;
 }
+
 .team-3 {
 
     box-sizing: border-box;
-    margin: 0 auto;
+    margin-left: 815px;
+    margin-bottom: 1632px;
+    display: flex;
 }
+
 .team-4 {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin-left: 1115px;
+    margin-bottom: 1632px;
+    display: flex;
+}
+
+.team-card {
+    display: inline-block;
+    width: 22%;
+    height: 100px;
+
+    /* ВАЖЛИВО: щоб border не додавав ширини до 25% */
+    box-sizing: border-box;
+
+    /* Вирівнювання по верхньому краю */
+    vertical-align: top;
+}
+
+.team-card img {
+    width: 100%;
 }
 
 
 
-
-footer{
+footer {
     background-color: var(--first-color);
 }
