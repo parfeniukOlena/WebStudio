@@ -43,33 +43,39 @@ body {
 
 
 .team-1 {
-
+    display: flex;
     box-sizing: border-box;
     margin-left: 215px;
     margin-bottom: 1632px;
-    display: flex;
+    text-align: center;
+    
 }
 
 .team-2 {
+    display: flex;
     box-sizing: border-box;
     margin-left: 515px;
     margin-bottom: 1632px;
-    display: flex;
+    text-align: center;
+    
 }
 
 .team-3 {
-
+    display: flex;
     box-sizing: border-box;
     margin-left: 815px;
     margin-bottom: 1632px;
-    display: flex;
+    text-align: center;
+    
 }
 
 .team-4 {
+    display: flex;
     box-sizing: border-box;
     margin-left: 1115px;
     margin-bottom: 1632px;
-    display: flex;
+    text-align: center;
+    
 }
 
 .team-card {
@@ -77,19 +83,23 @@ body {
     width: 22%;
     height: 100px;
 
+
     /* ВАЖЛИВО: щоб border не додавав ширини до 25% */
     box-sizing: border-box;
 
     /* Вирівнювання по верхньому краю */
     vertical-align: top;
+    justify-content: center;
 }
 
 .team-card img {
     width: 100%;
+    justify-content: center;
 }
 
 
 
 footer {
     background-color: var(--first-color);
+    
 }
