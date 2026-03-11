@@ -4,6 +4,14 @@ body {
 
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 :root {
     --first-color: #2F303A;
     --second-color: #FFFFFF;
@@ -82,24 +90,24 @@ body {
     display: inline-block;
     width: 22%;
     height: 100px;
-
-
-    /* ВАЖЛИВО: щоб border не додавав ширини до 25% */
     box-sizing: border-box;
-
-    /* Вирівнювання по верхньому краю */
     vertical-align: top;
-    justify-content: center;
+
+
 }
 
 .team-card img {
     width: 100%;
+
+}
+.team {
+    text-align: center;
     justify-content: center;
 }
 
 
-
 footer {
     background-color: var(--first-color);
+    margin-top: 1100px;
     
 }
