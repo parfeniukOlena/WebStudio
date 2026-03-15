@@ -4,11 +4,11 @@ body {
 
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -22,20 +22,45 @@ a{
 
 }
 
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;   
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 15px;
+}
+
 .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     background-color: var(--first-color);
 }
 
 .hero-text {
     color: var(--second-color);
-    display: flex;
-    align-items: center;
+
 }
 
 .hero-btn {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
     background-color: var(--third-color);
     color: var(--second-color);
-    align-items: center;
+
 }
 
 .block1-title,
@@ -51,44 +76,39 @@ a{
 .block4-text {
     color: var(--fifth-color);
 }
-
-
-.team-1 {
+.team11{
     display: flex;
-    box-sizing: border-box;
-    margin-left: 215px;
-    margin-bottom: 1632px;
-    text-align: center;
-    
+    width: 1170px;
+    height: 98px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
 }
 
-.team-2 {
+.about img,.about h2{
     display: flex;
-    box-sizing: border-box;
-    margin-left: 515px;
-    margin-bottom: 1632px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
     text-align: center;
-    
 }
 
-.team-3 {
-    display: flex;
-    box-sizing: border-box;
-    margin-left: 815px;
-    margin-bottom: 1632px;
-    text-align: center;
-    
-}
 
-.team-4 {
-    display: flex;
-    box-sizing: border-box;
-    margin-left: 1115px;
-    margin-bottom: 1632px;
-    text-align: center;
-    
-}
 
+
+.container1{
+    display: flex;
+    max-width: 1600px;
+    max-height: 648px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    
+
+
+}
 .team-card {
     display: inline-block;
     width: 22%;
@@ -103,14 +123,20 @@ a{
     width: 100%;
 
 }
-.team {
+
+.team{
+    max-width: 1600px;
+    max-height: 648px;
     text-align: center;
     justify-content: center;
+    background-color: var(--sixth-color);
 }
 
 
 footer {
+    width: 1600px;
+    height: 252px;
     background-color: var(--first-color);
     margin-top: 1100px;
-    
+
 }
