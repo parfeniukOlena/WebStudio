@@ -28,11 +28,14 @@ a{
 
 .hero-text {
     color: var(--second-color);
+    display: flex;
+    align-items: center;
 }
 
 .hero-btn {
     background-color: var(--third-color);
     color: var(--second-color);
+    align-items: center;
 }
 
 .block1-title,
