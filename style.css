@@ -1,5 +1,7 @@
 body {
-
+    width: 100%;
+    max-width: 1600px;
+    min-height: 2341px;
     font-family: Roboto;
 
 }
@@ -41,11 +43,22 @@ a {
     gap: 15px;
 }
 
+.container  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+
 .hero {
     display: flex;
+    flex-basis: 1600px;
+    height: 600px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
     background-color: var(--first-color);
 }
 
@@ -56,8 +69,10 @@ a {
 
 .hero-btn {
     display: flex;
-    flex-direction: column;
-    align-content: flex-end;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
     background-color: var(--third-color);
     color: var(--second-color);
 
@@ -78,38 +93,44 @@ a {
 }
 .team11{
     display: flex;
-    width: 1170px;
-    height: 98px;
+    flex-basis: 1170px;
+    max-height: 98px;
     flex-direction: row;
     align-content: center;
     justify-content: center;
 }
 
-.about img,.about h2{
+.container2  {
     display: flex;
-    flex-direction: row;
-    align-content: center;
+    flex-basis: 1170px;
+    min-height: 386px;
+    align-items: center;
     justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    gap: 15px;
+
+}
+
+.text{
     text-align: center;
 }
-
-
 
 
 .container1{
     display: flex;
-    max-width: 1600px;
+    flex-basis: 1600px;
     max-height: 648px;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     text-align: center;
     gap: 20px;
-    
-
-
 }
-.team-card {
+
+
+
+.team-card1 {
     display: inline-block;
     width: 22%;
     height: 100px;
@@ -117,26 +138,30 @@ a {
     vertical-align: top;
 
 
+
 }
 
-.team-card img {
+.team-card1 img {
     width: 100%;
 
 }
 
-.team{
-    max-width: 1600px;
-    max-height: 648px;
+.team h2{
     text-align: center;
-    justify-content: center;
-    background-color: var(--sixth-color);
 }
 
-
 footer {
-    width: 1600px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-basis: 1600px;
     height: 252px;
     background-color: var(--first-color);
+    color: white;
     margin-top: 1100px;
 
 }
+
+
