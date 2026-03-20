@@ -1,7 +1,13 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
 body {
     width: 100%;
-    max-width: 1600px;
-    min-height: 2341px;
+    flex-basis: 1600px;
     font-family: Roboto;
 
 }
@@ -91,6 +97,8 @@ a {
 .block4-text {
     color: var(--fifth-color);
 }
+
+
 .team11{
     display: flex;
     flex-basis: 1170px;
@@ -99,6 +107,14 @@ a {
     align-content: center;
     justify-content: center;
 }
+
+.container11{
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 .container2  {
     display: flex;
@@ -154,14 +170,29 @@ footer {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     flex-direction: column;
     flex-basis: 1600px;
     height: 252px;
     background-color: var(--first-color);
-    color: white;
-    margin-top: 1100px;
-
+    color: #ffffff9f;
+    margin-top: 300px;
 }
+
+.container12{
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    margin: 25px 0;
+}
+
+.adress{
+    color: #ffffff;
+}
+
+
 
 
