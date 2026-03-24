@@ -18,16 +18,31 @@ ul {
 
 a {
     text-decoration: none;
+    color: var(--fourth-color);
+}
+
+
+:focus{
+    color: var(--third-color);
+}
+
+
+.about{
+    height: 386px;
 }
 
 :root {
     --first-color: #2F303A;
     --second-color: #FFFFFF;
-    --third-color: #188CE8;
+    --third-color: #2196F3;
     --fourth-color: #212121;
     --fifth-color: #757575;
     --sixth-color: #F5F4FA;
 
+}
+
+.container{
+    height: 80px;
 }
 
 .menu{
@@ -102,7 +117,6 @@ a {
 .team11{
     display: flex;
     flex-basis: 1170px;
-    max-height: 98px;
     flex-direction: row;
     align-content: center;
     justify-content: center;
@@ -111,9 +125,13 @@ a {
 .container11{
     display: flex;
     justify-content: center;
+    height: 100px;
+
 }
 
-
+p{
+    font-size:14px
+}
 
 
 .container2  {
@@ -136,7 +154,7 @@ a {
 .container1{
     display: flex;
     flex-basis: 1600px;
-    max-height: 648px;
+    height: 368px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -162,9 +180,23 @@ a {
 
 }
 
-.team h2{
+.text,.text2{
+    height: 42px;
+}
+
+
+
+h1{
+    font-size: 44px;
+}
+
+h2{
+    font-size: 36px;
+
     text-align: center;
 }
+
+
 
 footer {
     display: flex;
